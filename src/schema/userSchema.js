@@ -38,6 +38,8 @@ password: {
     minlength: [6, "password should be minimum 6 character long"]
 }
 
+},{
+    timestamps: true
 });
 
 const User = mongoose.model("User", userSchema); // Collection
