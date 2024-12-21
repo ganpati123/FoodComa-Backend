@@ -7,7 +7,7 @@ const connentDB = require("./config/dbConfig");
 
 const app = express();
 
-/*app.use(bodyParser.json());
+/*app.use(bodyParser.json()); 
 app.use(bodyParser.text());
 app.use(bodyParser.urlencoded());*/
 
